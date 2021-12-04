@@ -1,0 +1,402 @@
+@font-face {
+  font-family: WEST;
+  src: url("../fonts/WEST.TTF");
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url("../fonts/proxima_nova.otf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #101010;
+}
+
+.header {
+  width: 100%;
+  height: 103px;
+  display: block;
+  background-color: #101010;
+  position: fixed;
+  z-index: 100;
+}
+
+.inner_header {
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: #101010;
+}
+
+.logo_container {
+  height: 100%;
+  display: table;
+  float: left;
+  margin-left: 10px;
+}
+
+.logo_container h1 {
+  font-family: WEST;
+  font-weight: lighter;
+  color: white;
+  height: 100px;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 68px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  height: 60px;
+  width: 125px;
+  font-family: WEST;
+  font-size: 24px;
+  padding: 15px 18px;
+  border: none;
+  border-radius: 35px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.hr {
+  border: 3px solid rgb(207, 207, 207);
+}
+
+button:hover {
+  background: #8b0000;
+  color: white;
+  box-shadow: 5px 5px 5px #1a1a1a;
+}
+
+.inner_body {
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.p1 {
+  line-height: 60px;
+  font-size: 39px;
+  font-family: WEST;
+  color: #ff2121;
+  text-align: center;
+  padding-top: 230px;
+}
+
+.p2 {
+  line-height: 60px;
+  font-size: 39px;
+  font-family: WEST;
+  color: #ff2121;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.p3 {
+  line-height: 50px;
+  font-size: 30px;
+  font-family: WEST;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  margin-left: 271px;
+  margin-right: 271px;
+}
+
+.p4 {
+  line-height: 50px;
+  font-size: 30px;
+  font-family: WEST;
+  color: white;
+  text-align: center;
+  z-index: 1;
+
+  margin-left: 90px;
+  margin-right: 90px;
+  padding-top: 10px;
+}
+
+.p5 {
+  line-height: 50px;
+  font-size: 30px;
+  font-family: WEST;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  margin-left: 90px;
+  margin-right: 90px;
+  padding-top: 30px;
+}
+
+.p6 {
+  line-height: 50px;
+  font-size: 30px;
+  font-family: WEST;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 0px;
+}
+
+.p7 {
+  line-height: 50px;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 0px;
+}
+
+.inner_body h1 {
+  font-family: WEST;
+  font-weight: lighter;
+  color: white;
+  height: 100px;
+  text-align: center;
+  font-size: 68px;
+  padding-top: 255px;
+}
+
+.inner_body h2 {
+  font-family: WEST;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  font-size: 55px;
+  padding-top: 125px;
+  padding-bottom: 20px;
+}
+
+.inner_body h3 {
+  font-family: WEST;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+.inner_body h4 {
+  font-family: WEST;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  font-size: 76px;
+  padding-top: 125px;
+  padding-bottom: 40px;
+}
+
+.banners {
+  text-align: center;
+  width: 1000px;
+}
+
+span {
+  color: #ba0000;
+}
+
+.WhiteKnight {
+  float: left;
+  z-index: 0;
+}
+
+.Shadow {
+  float: right;
+  z-index: 0;
+}
+
+.medium {
+  line-height: 100px;
+}
+
+.massive {
+  line-height: 1100px;
+}
+
+.small {
+  line-height: 50px;
+}
+
+.mini {
+  line-height: 25px;
+}
+
+.mint {
+  display: block;
+  text-align: center;
+}
+
+.team {
+  text-align: center;
+  margin-left: -55px;
+}
+.gif3 {
+  float: left;
+  margin: -70px 10px;
+  z-index: 0;
+}
+
+.gif {
+  float: right;
+  margin: -70px 10px;
+  z-index: 0;
+}
+
+.attributes li {
+  line-height: 50px;
+  font-size: 45px;
+  font-family: WEST;
+  color: white;
+  text-align: left;
+  float: left;
+  z-index: 1;
+  padding-top: 0px;
+  margin-left: 65px;
+  margin-right: 65px;
+  padding-bottom: 100px;
+  text-decoration: underline;
+}
+.attributes ul img {
+  float: right;
+  padding-bottom: 70px;
+  z-index: 0;
+  margin: -110px 60px;
+}
+
+.roadmap li {
+  line-height: 50px;
+  font-size: 28px;
+  font-family: WEST;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  float: left;
+  z-index: 1;
+  padding-top: 0px;
+  margin-left: 65px;
+  margin-right: 65px;
+  padding-bottom: 45px;
+}
+
+.give li {
+  list-style-type: disc;
+  line-height: 45px;
+  font-size: 32px;
+  font-family: WEST;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  float: left;
+  z-index: 1;
+  padding-top: 0px;
+  margin-left: 120px;
+  margin-right: 100px;
+  padding-bottom: 40px;
+}
+
+.twitter {
+  margin-left: 100px;
+  float: left;
+  z-index: 0;
+}
+
+.discord {
+  margin-top: 90px;
+  margin-right: 170px;
+  float: right;
+  z-index: 0;
+}
+
+.open {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.cigar {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.footer {
+  bottom: 0;
+  height: 88px;
+  margin: 0 auto;
+  width: 1000px;
+  background-color: #101010;
+  display: block;
+  box-shadow: rgb(0 0 0 / 70%) 0px 5px 11px 5px;
+}
+
+.bogo_container {
+  height: 100%;
+  display: table;
+  float: left;
+  margin-left: 0px;
+}
+
+.bogo_container h1 {
+  font-family: WEST;
+  font-weight: lighter;
+  color: white;
+  display: table-cell;
+  font-size: 40px;
+}
+
+.bottom p {
+  font-family: Proxima Nova;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  color: #00b3ff;
+  text-decoration: underline;
+}
+
+/* .logo_container {
+  height: 100%;
+  display: table;
+  float: left;
+  margin-left: 10px;
+}
+
+.logo_container h1 {
+  font-family: WEST;
+  font-weight: lighter;
+  color: white;
+  height: 100px;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 68px;
+} */
